@@ -6,11 +6,16 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    String name="vvv";
+    int num=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         Log.i("dd","ff");
+
+
+
     }
 }
