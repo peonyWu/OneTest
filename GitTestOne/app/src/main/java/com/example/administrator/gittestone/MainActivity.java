@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i("dd","ff");
         Toast.makeText(this,"ddd",Toast.LENGTH_SHORT).show();
 
-
+        Log.i("zh","张洪提交的代码");
     }
 }
