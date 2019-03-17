@@ -7,8 +7,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    String name="vvv";
-    int num=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("dd","ff");
         Toast.makeText(this,"ddd",Toast.LENGTH_SHORT).show();
+        Log.i("dd","吴牡丹删除了属性代码");
 
         Log.i("zh","张洪提交的代码");
     }
